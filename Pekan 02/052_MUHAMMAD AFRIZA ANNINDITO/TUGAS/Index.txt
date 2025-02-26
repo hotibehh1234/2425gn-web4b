@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Muhammad afriza annindito 052</title>
+  <title>Apa Itu HTML?</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -28,17 +28,24 @@
 </head>
 <body>
   <div class="container">
-    <h1>HALO NAMA KU DITO DARI KELAS 4B</h1>
-    <p>Saya seorang calon guru dari pendidikan informatika di UTM.</p>
-    <p>Saya inget slogan seseorang:</p>
-    <p>Ingat, sadar diri kalo belum siap karena memiliki dia saat kamu belum siap maka akan menghancurkan hidup nya.</p>
-    <p>GARIT DEWANA.</p>
-    <h2>Daftar Hobi Saya</h2>
+    <h1>Apa Itu HTML ?</h1>
+    <p>HTML adalah singkatan dari <strong>HyperText Markup Language</strong>, yakni bahasa (standar) yang digunakan 
+      untuk menampilkan teks, gambar, video, dan audio ke dalam halaman web. HTML mengatur teks dan gambar ke dalam 
+      elemen-elemen yang disebut dengan <em>tag</em>. Tag HTML dapat diibaratkan seperti kode khusus yang mengatur 
+      tampilan sebuah halaman web agar tertata dengan baik, sehingga isi dari halaman web tersebut menjadi lebih mudah dibaca. 
+      Namun, tag yang penting akan ditandai dengan sebutan <strong>elemen HTML</strong> (tag pembuka dan tag penutup).</p>
+    <p>Dokumen HTML dapat dibuat menggunakan aplikasi <em>Text Editor</em> apa saja, dan disimpan dengan ekstensi 
+      <strong>.html</strong> atau <strong>.htm</strong>. Untuk memulai proses belajar Anda, penulis merekomendasikan 
+      menggunakan <em>Text Editor</em> yang sederhana dan mudah dipahami sebagai tahap awal. Sebagai contoh, 
+      <em>Text Editor</em> seperti <strong>Notepad</strong> atau <strong>Notepad++</strong> yang dapat diunduh 
+      secara gratis di internet.</p>
+    <h3>Daftar Pustaka:</h3>
     <ul>
-      <li>Gaming</li>
-      <li>Olahraga</li>
-      <li>Mendengarkan Musik</li>
-      <li>Tata boga</li>
-  </div>
-</body>
-</html>
+      <li><a href="https://dodikbabul-lecture.web.app/p/html5-lengkap-belajar-notre-cl" target="_blank">
+        https://dodikbabul-lecture.web.app/p/html5-lengkap-belajar-notre-cl
+      </a></li>
+      <li>RFD (2021) <em>Perancangan dan Implementasi Sistem Absensi Menggunakan RFID</em>, Bandung: Tugas Akhir</li>
+      <marquee behavior="alternate" direction="down" style="font-size: 72px; color: rgb(13, 6, 198);"><b>TUGAS PERTAMAKU</b>
+    </ul>
+  </body>
+  </html>
