@@ -1,1 +1,38 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Muhammad afriza annindito 052</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url("img.png") no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #14a90764;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>HALO NAMA KU DITO DARI KELAS 4B</h1>
+    <p>Saya seorang calon guru dari pendidikan informatika di UTM.</p>
+    <p>Saya inget slogan seseorang:</p>
+    <p>Ingat, sadar diri kalo belum siap karena memiliki dia saat kamu belum siap maka akan menghancurkan hidup nya.</p>
+    <p>GARIT DEWANA.</p>
+  </div>
+</body>
+</html>
