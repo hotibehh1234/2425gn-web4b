@@ -33,6 +33,12 @@
     <p>Saya inget slogan seseorang:</p>
     <p>Ingat, sadar diri kalo belum siap karena memiliki dia saat kamu belum siap maka akan menghancurkan hidup nya.</p>
     <p>GARIT DEWANA.</p>
+    <h2>Daftar Hobi Saya</h2>
+    <ul>
+      <li>Gaming</li>
+      <li>Olahraga</li>
+      <li>Mendengarkan Musik</li>
+      <li>Tata boga</li>
   </div>
 </body>
 </html>
