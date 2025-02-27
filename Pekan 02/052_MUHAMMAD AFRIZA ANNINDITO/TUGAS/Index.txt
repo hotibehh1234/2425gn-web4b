@@ -29,16 +29,17 @@
 <body>
   <div class="container">
     <h1>Apa Itu HTML ?</h1>
-    <p>HTML adalah singkatan dari <strong>HyperText Markup Language</strong>, yakni bahasa (standar) yang digunakan 
-      untuk menampilkan teks, gambar, video, dan audio ke dalam halaman web. HTML mengatur teks dan gambar ke dalam 
-      elemen-elemen yang disebut dengan <em>tag</em>. Tag HTML dapat diibaratkan seperti kode khusus yang mengatur 
-      tampilan sebuah halaman web agar tertata dengan baik, sehingga isi dari halaman web tersebut menjadi lebih mudah dibaca. 
-      Namun, tag yang penting akan ditandai dengan sebutan <strong>elemen HTML</strong> (tag pembuka dan tag penutup).</p>
-    <p>Dokumen HTML dapat dibuat menggunakan aplikasi <em>Text Editor</em> apa saja, dan disimpan dengan ekstensi 
-      <strong>.html</strong> atau <strong>.htm</strong>. Untuk memulai proses belajar Anda, penulis merekomendasikan 
-      menggunakan <em>Text Editor</em> yang sederhana dan mudah dipahami sebagai tahap awal. Sebagai contoh, 
-      <em>Text Editor</em> seperti <strong>Notepad</strong> atau <strong>Notepad++</strong> yang dapat diunduh 
-      secara gratis di internet.</p>
+    <p>HTML adalah singkatan dari (<i><b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage</i>), yaitu bahasa
+      (aturan) standar yang digunakan untuk menampilkan teks, gambar, video, dan audio ke dalam halaman <i>web</i>. HTML
+      merupakan <i>file</i> teks yang tersusun atas elemen-elemen yang disebut dengan <i>tag</i>. Tag HTML diapit
+      dengan tanda lebih kecil (<) dan tanda lebih besar (>), misalnya: <b>&lt;html&gt;, &lt;head&gt;, &lt;body&gt;, &lt;p&gt;</b>, dan lain-lain.
+      HTML ada yang memiliki pasangan, ada juga yang tidak. Jika suatu <i>tag</i> memiliki pasangan, maka <i>tag</i> penutup
+      akan disertai dengan tanda <i>/</i>, misalnya: <b>&lt;/html&gt;, &lt;/head&gt;, &lt;/body&gt;, &lt;/p&gt;</b>, dan lain-lain.
+     <p>
+     </p> Dokumen atau <i>file</i> HTML dapat dibuat menggunakan aplikasi <i>Text Editor</i> apa saja, dan disimpan dengan
+      ekstensi <b>.html</b> atau <b>.htm</b>. Untuk memudahkan proses belajar Anda, penulis merekomendasikan agar Anda menggunakan <i>Text
+      Editor</i> yang secara khusus dirancang untuk menulis kode-kode HTML. Saat ini banyak <i>software Text Editor</i> untuk
+      HTML yang ditawarkan secara gratis di Internet.</p>
     <h3>Daftar Pustaka:</h3>
     <ul>
       <li><a href="https://dodikbabul-lecture.web.app/p/html5-lengkap-belajar-notre-cl" target="_blank">
