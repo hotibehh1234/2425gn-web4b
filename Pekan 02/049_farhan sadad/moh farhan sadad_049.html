@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar HTML Itu Mudah & Seru!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            background: linear-gradient(-45deg, #3842c9, #3d20e0, #5833be, #a18cd1);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+        }
 
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            border: 2px solid #0671eb;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            color: #0590f4;
+            font-size: 38px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .content {
+            text-align: justify;
+            padding: 10px;
+            line-height: 1.8;
+            font-size: 18px;
+            color: #444;
+        }
+
+        .highlight-text {
+            font-size: 26px;
+            font-weight: bold;
+            color: #0285f8;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .author {
+            font-size: 20px;
+            font-weight: bold;
+            color: #011a0b;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Waktunya Kuasai HTML & Bangun Website Kerenmu!</h1>
+        
+        <div class="content">
+             Pernah penasaran bagaimana website dibuat?  
+            HTML (HyperText Markup Language) adalah kunci utama yang membuka pintu dunia web!  
+            Dengan HTML, kamu bisa menciptakan website dari nol dan mewujudkan ide-ide kreatifmu!  
+        </div>
+
+        <div class="content">
+            Tidak hanya itu, HTML juga bekerja sama dengan CSS untuk desain dan JavaScript untuk interaktivitas, 
+            membuat website lebih menarik dan dinamis. Bayangkan bisa membuat situs web sendiri dalam hitungan jam!  
+        </div>
+
+        <h2> Kenapa Harus Belajar HTML?</h2>
+        <div class="content">
+            ✅ Mudah & Cepat Dipelajari!<br>
+            ✅ Dasar Utama Semua Website di Internet!<br>
+            ✅ Berguna untuk Blog, Portofolio, hingga Bisnis Online!<br>
+            ✅ Pintu Gerbang Menjadi Web Developer Profesional!<br>
+        </div>
+
+        <div class="highlight-text"> bersama sadad buat web mu menjadi keren </div>
+        
+        <div class="author">049_farhan sadad</div>
+    </div>
+</body>
+</html>
