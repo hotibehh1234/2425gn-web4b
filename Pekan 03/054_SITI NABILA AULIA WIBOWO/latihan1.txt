@@ -24,7 +24,7 @@
         <td>1</td>
         <td>L</td>
         <td></td>
-        <td>Handika</td>
+        <td>NABILA</td>
     </tr>
 </table>
 <br>
@@ -46,7 +46,7 @@
             <td>1</td>
             <td>L</td>
             <td></td>
-            <td>Handika</td>
+            <td>NABILA</td>
         </tr>
     </tbody>
 </table>
