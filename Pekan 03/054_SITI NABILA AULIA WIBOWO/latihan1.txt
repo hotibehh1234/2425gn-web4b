@@ -51,5 +51,6 @@
     </tbody>
 </table>
 <br>
+<a href="latihan3.html">Kembali ke halaman utama</a>
 </body>
 </html>
