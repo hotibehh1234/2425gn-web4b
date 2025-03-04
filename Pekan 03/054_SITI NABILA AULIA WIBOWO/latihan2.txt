@@ -6,8 +6,8 @@
     <form> 
       <label for="nama"> NAMA </label> 
       <input type="text" name="nama"> <br></br>
-      <label for="alamat> ALAMAT </label>
-      <textarea name = "alamat"></testarea><br></br>
+      <label for="alamat"> ALAMAT </label>
+      <textarea name = "alamat"></textarea><br></br>
 
      <label for="kota"> KOTA </label> 
     <select> name="kota">
