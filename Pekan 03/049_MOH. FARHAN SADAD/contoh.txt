@@ -1,1 +1,50 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data UKM tiga serangkai</title>
+</head>
+<body align="center">
+    <h2>Form Data UKM tiga serangkai</h2>
+    <form>
+        <label for="nama_ukm">Nama ukm:</label>
+        <input type="text" name="nama_ukm" required><br><br>
+        
+        <label for="ketua">Ketua:</label>
+        <input type="text" name="ketua" required><br><br>
+        
+        <label for="jumlah_anggota">Jumlah Anggota:</label>
+        <input type="number" name="jumlah_anggota" required><br><br>
+        
+        <label for="periode">Periode Kepengurusan:</label>
+        <input type="text" name="periode" required><br><br>
+        
+        <input type="submit" value="Simpan Data">
+    </form>
+    
+    <br><br>
+    <h2>Data UKM tiga serangkai</h2>
+    <table border="1" align="center">
+        <tr>
+            <th>No</th>
+            <th>Nama ukm</th>
+            <th>Ketua</th>
+            <th>Jumlah Anggota</th>
+            <th>Periode Kepengurusan</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>DPM FKIP</td>
+            <td>Rosyid</td>
+            <td>50</td>
+            <td>2024-2025</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>BEM Fakultas teknik</td>
+            <td>bahril firdaus</td>
+            <td>80</td>
+            <td>2024-2025</td>
+        </tr>
+    </table>
+</body>
+</html>
