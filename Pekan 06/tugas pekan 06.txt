@@ -1,0 +1,5 @@
+Tugas Pekan 06
+
+Mahasiswa mengerjakan:
+1. membuat layout responsif menggunakan Flexbox/Grid, commit ke GitHub. (.html dan .css)
+2. unggah Capture Layar hasil eksekusi program. (jpg atau png)
