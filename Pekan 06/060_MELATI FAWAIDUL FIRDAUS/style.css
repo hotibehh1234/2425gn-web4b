@@ -1,0 +1,34 @@
+/* Reset dasar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #d1943f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Top Navigation */
+  .topnav {
+    display: flex;
+    justify-content: center;       /* Menyusun link di tengah */
+    background-color: #ad1616;
+    padding: 10px 0;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
