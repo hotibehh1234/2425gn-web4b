@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>kontak</title>
+</head>
+<body>
+    <style>
+        body {
+          background-color: rgb(136, 191, 239);
+        }
+        </style>
+    <h2>
+        <div align="center">
+            <b><div style="font-size:48px;color:rgb(0, 0, 0);"> KONTAK </div></b>
+        </div>
+    </h2>
+    <div style="text-indent:1.27cm" align="justify">
+<p><b>Email :</b> sitinabilasiti9@gmail.com</p>
+        <p><b>Telepon :</b> 085856187608</p>
+    </div>
+
+    <a href="flexbox.html">Kembali ke halaman utama</a>
+</body>
+</html>
