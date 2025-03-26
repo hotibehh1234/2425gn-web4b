@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Biodata</title>
+</head>
+<body>
+    <style>
+        body {
+          background-color: rgb(136, 191, 239);
+        }
+        </style>
+    <h2>
+        <div align="center">
+            <b><div style="font-size:48px;color:rgb(0, 0, 0);"> BIODATA </div></b>
+        </div>
+    </h2>
+    <div style="text-indent:1.27cm" align="justify">
+        <p><b>Nama :</b> Siti Nabila Aulia Wibowo</p>
+        <p><b>Tanggal Lahir :</b> 30 April 2005</p>
+        <p><b>Alamat :</b> Bojonegoro </p>
+        <p><b>Status :</b> Mahasiswa</p>
+        <p><b>Prodi :</b> Pendidikan Informatika</p>
+        <p><b>Universitas :</b> TRUNOJOYO MADURA</p>
+    </div>
+   
+    <a href="flexbox.html">Kembali ke halaman utama</a>
+</body>
+</html>
