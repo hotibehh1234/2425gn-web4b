@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pekan 6</title>
+    <style>
+        /* Reset dasar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            background-color: #007bff; /* Biru */
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 15px;
+            width: 100%;
+        }
+
+        /* Biodata */
+        .biodata {
+            background-color: #28a745; /* Hijau */
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        /* Container tugas */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        /* Kotak tugas */
+        .box {
+            width: 150px;
+            height: 80px;
+            background: #dc3545; /* Merah */
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        /* Hover efek untuk kotak tugas */
+        .box:hover {
+            background: #c82333; /* Merah lebih gelap */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">PEMROGRAMAN WEB</div>
+
+    <!-- Biodata -->
+    <div class="biodata">NAMA : SAFIRA AULIANISA | KELAS : 4B</div>
+
+    <!-- Container tugas -->
+    <div class="container">
+        <a href="#" class="box">TUGAS 1</a>
+        <a href="#" class="box">TUGAS 2</a>
+        <a href="#" class="box">TUGAS 3</a>
+        <a href="#" class="box">TUGAS 4</a>
+        <a href="#" class="box">TUGAS 5</a>
+        <a href="#" class="box">TUGAS 6</a>
+    </div>
+
+</body>
+</html>
