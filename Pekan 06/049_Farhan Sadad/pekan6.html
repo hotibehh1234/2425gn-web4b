@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pekan 06 - Layout Responsif</title>
 
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300..700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+            color: #0d47a1;
+        }
+        
+        header {
+            background-color: #0d47a1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        /* Layout with Flexbox */
+        .content-description,
+        .content-image,
+        .content-screenshot {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        /* Title and task description */
+        h2 {
+            color: #0d47a1;
+            text-shadow: 2px 2px 5px #fff314;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        ol {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        /* Screenshot Upload Section */
+        .content-screenshot img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Responsive Flexbox Layout */
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .content-description,
+            .content-image,
+            .content-screenshot {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+
+        /* Form Styles */
+        form {
+            margin-top: 2rem;
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin: 10px 0;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #0d47a1;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #0d47a1;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>DUTA PIF</h1>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="content-description">
+                <h2>Tugas Mahasiswa</h2>
+                <ol>
+                    <li>Duta" dalam konteks umum berarti seseorang yang diutus atau menjadi wakil dalam bidang tertentu, baik itu sebagai utusan resmi negara (duta besar) atau dalam konteks lain seperti duta bahasa atau duta sekolah.</li>
+                    <li>Duta Besar (Dubes): Pejabat diplomatik yang ditugaskan ke pemerintahan asing berdaulat atau organisasi internasional untuk mewakili negaranya.</li>
+                </ol>
+            </div>
+
+            <div class="content-image">
+                <h2>Hasil DATA DUTA PIF</h2>
+                <p>Duta dalam konteks lain: Orang yang diutus untuk melakukan tugas khusus atau misi tertentu, misalnya duta prodi</p>
+            </div>
+
+            <!-- Screenshot Placeholder -->
+            <div class="content-screenshot">
+                <h2>HASIL DATA DUTA PIF</h2>
+                <img src="img/screenshot-placeholder.png" alt="Capture Layar">
+                <p><em>DUTA PIF UNGGUL UTM</em></p>
+            </div>
+        </div>
+
+        <!-- Form to simulate task submission -->
+        <form>
+            <h2>Form Data DUTA PIF</h2>
+            <label for="nama">Nama:</label>
+            <input type="text" name="nama" required placeholder="Masukkan nama Anda">
+            <label for="program_studi">Program Studi:</label>
+            <input type="text" name="program_studi" required placeholder="Masukkan program studi Anda">
+            <label for="divisi">Divisi:</label>
+            <input type="text" name="divisi" required placeholder="Masukkan divisi Anda">
+            <input type="submit" value="Simpan Data">
+        </form>
+    </main>
+
+</body>
+</html>
