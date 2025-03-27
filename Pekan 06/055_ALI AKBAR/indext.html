@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Profile</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #ecf0f1;
+        }
+
+        .header {
+            background: linear-gradient(to right, #2980b9, #2c3e50);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #2c3e50;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #2980b9;
+            border-radius: 5px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .profile-card {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+        }
+
+        .profile-card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .profile-card h2 {
+            color: #2c3e50;
+        }
+
+        .profile-card p {
+            color: #7f8c8d;
+            font-size: 16px;
+        }
+
+        .footer {
+            text-align: center;
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 700px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        Welcome to My Profile
+        <p>A Modern Personal Website</p>
+    </div>
+
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="container">
+        <div class="profile-card">
+            <img src="img/profile.jpg" alt="Profile Picture">
+            <h2>Your Name</h2>
+            <p>Web Developer | Designer | Freelancer</p>
+            <p>"Passionate about creating beautiful and functional websites."</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Contact Me</h2>
+        <p>Email: almtrm@gmail.com | Instagram: @almtrm</p>
+    </div>
+
+</body>
+</html>
