@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .header {
+    background-color: #216cc7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .topnav {
+    display: flex;
+    justify-content: center;       /* Menyusun link di tengah */
+    background-color: #f7a0da;
+    padding: 10px 0;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
