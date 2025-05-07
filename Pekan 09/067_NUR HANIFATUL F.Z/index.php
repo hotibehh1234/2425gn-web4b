@@ -1,67 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Daftar Mahasiswa</title>
+    <title>Daftar Buku</title>
     <style>
         body {
-            font-family: sans-serif;
-            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
         }
-        h1 {
-            text-align: center;
-        }
-        table {
-            border-collapse: collapse;
-            width: 70%;
+        .container {
+            width: 90%;
             margin: 20px auto;
-            background-color: #fff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
-        th, td {
-            border: 1px solid #ccc;
-            padding: 10px 15px;
+        .card {
+            background: #fff;
+            width: 200px;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
             text-align: center;
         }
-        th {
-            background-color: #3498db;
-            color: #fff;
+        .card h3 {
+            margin: 10px 0 5px;
         }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-        tr:hover {
-            background-color: #e0f7fa;
+        .card p {
+            margin: 5px 0;
+            color: #555;
         }
     </style>
 </head>
 <body>
 
-    <h1>Daftar Mahasiswa</h1>
+    <h1 style="text-align: center;">📚 Daftar Buku Populer</h1>
 
+    <div class="container">
     <?php
-    // Data mahasiswa dalam array asosiatif
-    $mahasiswa = [
-        ["nama" => "Rizky", "nim" => "20221001", "prodi" => "Teknik Informatika"],
-        ["nama" => "Aulia", "nim" => "20221002", "prodi" => "Sistem Informasi"],
-        ["nama" => "Cindy", "nim" => "20221003", "prodi" => "Teknik Komputer"],
-        ["nama" => "Putri", "nim" => "20221004", "prodi" => "Manajemen Informatika"]
+    // Data daftar buku dalam array asosiatif
+    $books = [
+        ["judul" => "Laskar Pelangi", "penulis" => "Andrea Hirata", "tahun" => 2005],
+        ["judul" => "Negeri 5 Menara", "penulis" => "Ahmad Fuadi", "tahun" => 2009],
+        ["judul" => "Bumi Manusia", "penulis" => "Pramoedya Ananta Toer", "tahun" => 1980],
+        ["judul" => "Dilan 1990", "penulis" => "Pidi Baiq", "tahun" => 2014]
     ];
 
-    // Menampilkan data dalam tabel
-    echo "<table>";
-    echo "<tr><th>No</th><th>Nama</th><th>NIM</th><th>Program Studi</th></tr>";
-    $no = 1;
-    foreach ($mahasiswa as $mhs) {
-        echo "<tr>";
-        echo "<td>" . $no++ . "</td>";
-        echo "<td>" . $mhs["nama"] . "</td>";
-        echo "<td>" . $mhs["nim"] . "</td>";
-        echo "<td>" . $mhs["prodi"] . "</td>";
-        echo "</tr>";
+    // Menampilkan data buku dalam card
+    foreach ($books as $book) {
+        echo "<div class='card'>";
+        echo "<h3>" . $book['judul'] . "</h3>";
+        echo "<p><strong>Penulis:</strong> " . $book['penulis'] . "</p>";
+        echo "<p><strong>Tahun:</strong> " . $book['tahun'] . "</p>";
+        echo "</div>";
     }
-    echo "</table>";
     ?>
+    </div>
 
 </body>
 </html>
-
-
