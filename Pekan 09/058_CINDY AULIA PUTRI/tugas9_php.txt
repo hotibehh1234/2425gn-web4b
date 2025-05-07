@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menampilkan Data Dinamis</title>
+</head>
+<body>
+
+    <h1>Daftar Pengguna</h1>
+
+    <?php
+    // Data dalam bentuk array asosiatif
+    $users = [
+        ["nama" => "cindy", "usia" => 25, "kota" => "Surabaya"],
+        ["nama" => "aulia", "usia" => 30, "kota" => "gresik"],
+        ["nama" => "putri", "usia" => 22, "kota" => "lamongan "]
+    ];
+
+    // Looping untuk menampilkan setiap data pengguna
+    echo "<ul>";
+    foreach ($users as $user) {
+        echo "<li>Nama: " . $user["nama"] . ", Usia: " . $user["usia"] . ", Kota: " . $user["kota"] . "</li>";
+    }
+    echo "</ul>";
+    ?>
+
+</body>
+</html>
